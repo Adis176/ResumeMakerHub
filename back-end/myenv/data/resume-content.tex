@@ -1,0 +1,240 @@
+
+\documentclass[11pt, letterpaper]{article}
+% Ensure that generate pdf is machine readable/ATS parsable:
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+% package for setting margins
+\usepackage [
+ignoreheadfoot, 
+left=0.4in, right=0.4in, top=0.2in, bottom=0in]{geometry}
+% icons package
+\usepackage{fontawesome5}
+% ordered list
+\usepackage{enumitem}
+% to format hyperlinks
+\usepackage{hyperref}
+% Required for ifthenelse statements
+\usepackage{xifthen} 
+% package to set 0 margin for paragraph, so no pre-defined indent
+\usepackage[parfill]{parskip}
+% package for tabular content
+\usepackage{tabularx}
+% used to set proper left margins for items.
+\setlist[itemize]{leftmargin=4.6mm}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+% Save the original \href command in a new command
+\let\hrefWithoutArrow\href
+
+% Optionally redefine \hrefWithoutArrow to customize it
+% For example, redefine it to not show the arrow:
+\renewcommand{\hrefWithoutArrow}[2]{%
+    \href{#1}{#2}%
+}
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+% for each section heading
+
+\newcommand{\sectionHeading}[1]{
+    \MakeUppercase{\textbf{#1}}
+    \vspace{4pt}
+    \hrule{}
+    \vspace{-2pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \noindent % Prevent indentation
+    \ifthenelse{\isempty{#1}}%
+        {}% if #1 is empty
+        {\begin{tabularx}{\textwidth}{@{}X@{\hspace{10pt}}r@{}}
+            \large{\textbf{#1}} & #2 \\
+        \end{tabularx}}
+    \ifthenelse{\isempty{#3}}%
+        {}% if #1 is empty
+        {\begin{tabularx}{\textwidth}{@{}X@{\hspace{10pt}}r@{}}
+            #3 & \Small{\textit{#4}} \\
+        \end{tabularx}}
+}
+
+\newcommand{\resumeSubsection}[4]{
+    \noindent % Prevent indentation
+    \ifthenelse{\isempty{#1}}%
+        {\vspace{-10pt}}% if #1 is empty
+        {\begin{tabularx}{\textwidth}{@{}X@{\hspace{10pt}}r@{}}
+            \large{\textbf{#1}} & #2 \\
+        \end{tabularx}}
+    \ifthenelse{\isempty{#3}}%
+        {\vspace{-10pt}}% if #1 is empty
+        {\begin{tabularx}{\textwidth}{@{}X@{\hspace{10pt}}r@{}}
+            #3 & #4 \\
+        \end{tabularx}}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubsection}[2]{
+    \noindent % Prevent indentation
+    \ifthenelse{\isempty{#1}}%
+        {\vspace{-22pt}}% if #1 is empty
+        {\begin{tabularx}{\textwidth}{@{}X@{\hspace{10pt}}r@{}}
+            \large{\textbf{#1}} & #2 \\
+        \end{tabularx}}
+}
+
+
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand{\resumeDescription}[1]{
+    \textit{#1}
+}
+
+
+\begin{document}
+\begin{center}
+\textbf{\Huge \scshape Aditya Gandhi }
+\end{center}
+
+\begin{center}
+\vspace{5pt}
+\faEnvelopeSquare \hspace{5pt} {\href{mailto:csdc}{csdc}}  
+\hspace{2pt} \textbar{} \hspace{2pt} \faPhone \hspace{5pt} 6787494902  
+\hspace{2pt} \textbar{} \hspace{2pt}\faLaptopCode \hspace{5pt} {\href{adityagandhi.netlify.app}{adityagandhi.netlify.app}} 
+\hspace{2pt} \textbar{} \hspace{2pt}\faLinkedinIn \hspace{5pt} {\href{linkedin.com/asasxasxas}{linkedin.com/asasxasxas}} 
+\hspace{2pt} \textbar{} \hspace{2pt}\faInstagram \hspace{5pt} {\href{insta.com/adcbhbhcs}{insta.com/adcbhbhcs}} 
+\hspace{2pt} \textbar{} \hspace{2pt}\faFacebook \hspace{5pt} {\href{fb kon rakhe}{fb kon rakhe}} 
+\hspace{2pt} \textbar{} \hspace{2pt}\faGithub \hspace{5pt} {\href{github.com/asdasdf}{github.com/asdasdf}} 
+\hspace{2pt} \textbar{} \hspace{2pt}\faAddressBook  \hspace{5pt} kyay pan pahch 
+\hspace{2pt} \textbar{} \hspace{2pt}\faDiagnoses  \hspace{5pt} koi pan role  \vspace{4pt} summary has to be of one line only. prepare accordingly. 
+\end{center}
+
+\sectionHeading{Objective}
+\setlength{\leftmargin}{0em}
+\resumeDescription{My main objective in life is to complete this resume \textit{maker project for now. Learn} more back-end}
+
+% EDUCATION SECTION
+\sectionHeading{Education}
+\setlength{\leftmargin}{0em}
+\resumeSubheading{\textbf{georgia-Tech}}{Aug 2023 \textbf{- Aug 2025}}{masters \textit{in com}piter science}{\underline{3.86 / 4.00}}
+\begin{itemize}
+\vspace{-6pt}
+\item \hspace{-2.5pt} There are not many features associated wt Gatech.
+\vspace{-6pt}
+\item \hspace{-2.5pt} Now there is some more \textit{content a}s well
+\vspace{-6pt}
+\item \hspace{-2.5pt} I am jsut dofing this to check spacing\end{itemize}
+
+\setlength{\leftmargin}{0em}
+\resumeSubheading{Pandit Deendayal Energy Institute - PDEU}{Aug 2019 - May 2023}{Bachelors of technology}{9.86 / 10.00}
+
+% WORK EXPERIENCE SECTION
+\sectionHeading{Work Experience}
+\setlength{\leftmargin}{0em}\resumeSubsection{Cling Multi-Solutions}{January 2023 - June 2023}{SDE Intern}{Pune, Maharashtra}
+\begin{itemize}
+\vspace{-6pt}
+\item \hspace{-2.5pt} work-str1. ho hasnt. tell mah.\end{itemize}
+
+\setlength{\leftmargin}{0em}\resumeSubsection{eInfoChips org}{May 2022 - July 2022}{Summer Intern}{Remote}
+
+% PROJECTS
+\sectionHeading{Projects}
+\setlength{\leftmargin}{0em}
+\resumeSubsection{Portfolio Website | ReactJS, Framer-Motion, ts Particles, Three.js, JavaScript, SCSS}{}{}{}
+\begin{itemize}
+\vspace{-6pt}
+\item \hspace{-2.5pt} Constructed a personalized portfolio website through ReactJS framework. Deployed tsParticles.js library for an interactive background, leading to 40 increase in user interactions. • Employed animations through Framer-motion library for elevated user view-ability. • Incorporated custom 3D objects using the Three.js library to demonstrate advanced web development skills.3\end{itemize}
+
+\setlength{\leftmargin}{0em}
+\resumeSubsection{B+ Tree Implementation | C++}{}{}{}
+\begin{itemize}
+\vspace{-6pt}
+\item \hspace{-2.5pt} Engineered a B+-Tree from scratch, supporting lookup, insert and delete operations. • Designed it as a template, allowing custom key and value types, comparators and page size at compile time. • Leverages page-ids and buffer-manager instead of pointers for node resolution, for faster data retrieval and management. Implemented node splitting and merging logic for refined balance in the tree.\end{itemize}
+
+
+% CERTIFICATES
+\sectionHeading{Certificates}
+\setlength{\leftmargin}{0em}
+\resumeSubSubsection{Leetcode Guardian badge achieved}{}
+\begin{itemize}
+\vspace{-6pt}
+\item \hspace{-2.5pt} ReactJS, NextJS, Framer Motion, Three.js, Bootstrap, Tailwind, Django, Tensorflow, Numpy, Keras\end{itemize}
+
+\setlength{\leftmargin}{0em}
+\resumeSubSubsection{Management Head at HackerEarth PDEU Student Chapter}{}
+\begin{itemize}
+\vspace{-6pt}
+\item \hspace{-2.5pt} ReactJS, NextJS, Framer Motion, Three.js, Bootstrap, Tailwind, Django, Tensorflow, Numpy, Keras\end{itemize}
+
+
+% SKILLS
+\sectionHeading{Skills}
+\setlength{\leftmargin}{0em}
+\resumeSubSubsection{technical skills}{}
+\begin{itemize}
+\vspace{-6pt}
+\item \hspace{-2.5pt} ReactJS, NextJS, Framer Motion, Three.js, Bootstrap, Tailwind, Django, Tensorflow, Numpy, Keras\end{itemize}
+
+\setlength{\leftmargin}{0em}
+\resumeSubSubsection{Libraries}{}
+\begin{itemize}
+\vspace{-6pt}
+\item \hspace{-2.5pt} ReactJS, NextJS, Framer Motion, Three.js, Bootstrap, Tailwind, Django, Tensorflow, Numpy, Keras\end{itemize}
+
+
+% LANGUAGES
+\sectionHeading{Languages}
+\setlength{\leftmargin}{0em}
+\resumeSubSubsection{English}{}
+\begin{itemize}
+\vspace{-6pt}
+\item \hspace{-2.5pt} I mastered English during my GRE prep. I also scored 8 bands in IELTS\end{itemize}
+
+\setlength{\leftmargin}{0em}
+\resumeSubSubsection{Gujarati}{}
+\begin{itemize}
+\vspace{-6pt}
+\item \hspace{-2.5pt} I have good command over Gujarati and consider it my native language.\end{itemize}
+
+\end{document}
+                

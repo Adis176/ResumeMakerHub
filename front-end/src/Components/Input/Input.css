@@ -1,0 +1,40 @@
+.myInput:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 100px rgb(232, 240, 254) inset !important;
+    -webkit-text-fill-color: fieldtext !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.internal-autofill-selected{
+    background-color: red !important;
+}
+
+input:-webkit-autofill {
+    background-color: transparent !important; /* Example background color */
+    color: #000; /* Example text color */
+}
+  
+  /* For Firefox */
+input:-moz-autofill {
+    background-color: transparent !important; /* Example background color */
+    color: #000; /* Example text color */
+}
+  
+  /* For Edge */
+input:-ms-autofill {
+    background-color: transparent !important;
+    color: #000; 
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    background-color: transparent !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #4c25b9 inset !important;
+    -webkit-text-fill-color: rgb(255, 255, 255) !important;
+    border: 0px solid transparent !important;
+    /* z-index: -1000 !important; */
+}

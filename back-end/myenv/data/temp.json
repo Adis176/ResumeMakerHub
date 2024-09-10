@@ -1,0 +1,207 @@
+{
+  "data": [
+    {
+      "segment_title": "objective",
+      "items": [
+        {
+          "attribute1": [
+            {
+              "main": "",
+              "placeholder": "Objective",
+              "req": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "segment_title": "education",
+      "items": [
+        {
+          "institute": [
+            {
+              "main": "",
+              "placeholder": "Institute",
+              "req": true
+            }
+          ],
+          "duration": [
+            {
+              "main": "",
+              "placeholder": "Education Duration",
+              "req": false
+            }
+          ],
+          "level": [
+            {
+              "main": "",
+              "placeholder": "Education level",
+              "req": true
+            }
+          ],
+          "grade": [
+            {
+              "main": "",
+              "placeholder": "Education Grade",
+              "req": false
+            }
+          ],
+          "features": ["edu-str1", "edu-str2", "edu-str3"]
+        }
+      ]
+    },
+    {
+      "segment_title": "work-experience",
+      "items": [
+        {
+          "organization": [
+            {
+              "main": "",
+              "placeholder": "Organization",
+              "req": true
+            }
+          ],
+          "duration": [
+            {
+              "main": "",
+              "placeholder": "Career Duration",
+              "req": false
+            }
+          ],
+          "role": [
+            {
+              "main": "",
+              "placeholder": "Career Role",
+              "req": true
+            }
+          ],
+          "location": [
+            {
+              "main": "",
+              "placeholder": "Career Location",
+              "req": false
+            }
+          ],
+          "features": ["work-str1", "work-str2", "work-str3"]
+        }
+      ]
+    },
+    {
+      "segment_title": "projects",
+      "items": [
+        {
+          "title": [
+            {
+              "main": "",
+              "placeholder": "Project Title",
+              "req": true
+            }
+          ],
+          "duration": [
+            {
+              "main": "",
+              "placeholder": "Project Duration",
+              "req": false
+            }
+          ],
+          "details": {
+            "main": "",
+            "placeholder": "Project Details",
+            "req": true
+          },
+          "ref": {
+            "main": "",
+            "placeholder": "Project Reference",
+            "req": false
+          },
+          "features": ["proj-str1", "proj-str2", "proj-str3"]
+        }
+      ]
+    },
+    {
+      "segment_title": "certificates",
+      "items": [
+        {
+          "title": {
+            "main": "",
+            "placeholder": "Project Title",
+            "req": true
+          },
+          "details": {
+            "main": "",
+            "placeholder": "Project Details",
+            "req": false
+          },
+          "features": ["certi-str1", "certi-str2", "certi-str3"]
+        }
+      ]
+    },
+    {
+      "segment_title": "skills",
+      "items": [
+        {
+          "title": {
+            "main": "",
+            "placeholder": "Skill Title",
+            "req": false
+          },
+          "features": ["skill-str1", "skill-str2", "skill-str3"]
+        }
+      ]
+    },
+    {
+      "segment_title": "languages",
+      "items": [
+        {
+          "title": {
+            "main": "",
+            "placeholder": "Languages known",
+            "req": false
+          },
+          "features": ["lang-str1", "lang-str2", "lang-str3"]
+        }
+      ]
+    },
+    {
+      "segment_title": "extracurricular",
+      "items": [
+        {
+          "title": {
+            "main": "",
+            "placeholder": "Extracurricular Activities",
+            "req": false
+          },
+          "features": ["extra-str1", "extra-str2", "extra-str3"]
+        }
+      ]
+    },
+    {
+      "segment_title": "BASE",
+      "items": [
+        {
+          "attribute1": {
+            "main": "",
+            "placeholder": "First Attribute Details",
+            "req": false
+          },
+          "attribute2": {
+            "main": "",
+            "placeholder": "Second Attribute Details",
+            "req": false
+          },
+          "attribute3": {
+            "main": "",
+            "placeholder": "Third Attribute Details",
+            "req": false
+          },
+          "attribute4": {
+            "main": "",
+            "placeholder": "Fourth Attribute Details",
+            "req": false
+          },
+          "features": ["str1", "str2", "str3"]
+        }
+      ]
+    }
+  ]
+}

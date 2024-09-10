@@ -1,0 +1,335 @@
+{
+  "data": [
+    {
+      "segment_title": "objective",
+      "items": [
+        {
+          "attribute1": {
+            "format": "<p>My main objective in life is to complete this resume <em>maker project for now. Learn</em> more back-end</p>",
+            "main": "My main objective in life is to complete this resume maker project for now. Learn more back-end",
+            "placeholder": "Objective",
+            "req": false
+          }
+        }
+      ]
+    },
+    {
+      "segment_title": "education",
+      "items": [
+        {
+          "institute": {
+            "format": "<p><strong>georgia-Tech</strong></p>",
+            "main": "georgia-Tech",
+            "placeholder": "Institute",
+            "req": true
+          },
+          "duration": {
+            "format": "<p>Aug 2023 <strong>- Aug 2025</strong></p>",
+            "main": "Aug 2023 - Aug 2025",
+            "placeholder": "Education Duration",
+            "req": false
+          },
+          "level": {
+            "format": "<p>masters <em>in com</em>piter science</p>",
+            "main": "masters in compiter science",
+            "placeholder": "Education level",
+            "req": true
+          },
+          "grade": {
+            "format": "<p><u>3.86 / 4.00</u></p>",
+            "main": "3.86 / 4.00",
+            "placeholder": "Education Grade",
+            "req": false
+          },
+          "features": {
+            "format": ["<p>There are not many features associated wt Gatech.</p>", "Now there is some more <em>content a</em>s well", "I am jsut dofing this to check spacing"],
+            "main": ["There are not many features associated wt Gatech.", "Now there is some more content as well", "I am jsut dofing this to check spacing"],
+            "placeholder": "Feature Details",
+            "req": false
+          }
+        },
+        {
+          "institute": {
+            "format": "<p>Pandit Deendayal Energy Institute - PDEU</p>",
+            "main": "Pandit Deendayal Energy Institute - PDEU",
+            "placeholder": "Institute",
+            "req": true
+          },
+          "duration": {
+            "format": "<p>Aug 2019 - May 2023</p>",
+            "main": "Aug 2019 - May 2023",
+            "placeholder": "Education Duration",
+            "req": false
+          },
+          "level": {
+            "format": "<p>Bachelors of technology</p>",
+            "main": "Bachelors of technology",
+            "placeholder": "Education level",
+            "req": true
+          },
+          "grade": {
+            "format": "<p>9.86 / 10.00</p>",
+            "main": "9.86 / 10.00",
+            "placeholder": "Education Grade",
+            "req": false
+          },
+          "features": {
+            "format": ["<p></p>"],
+            "main": [""],
+            "placeholder": "Feature Details",
+            "req": false
+          }
+        }
+      ]
+    },
+    {
+      "segment_title": "work-experience",
+      "items": [
+        {
+          "organization": {
+            "format": "",
+            "main": "Cling Multi-Solutions",
+            "placeholder": "Organization",
+            "req": true
+          },
+          "duration": {
+            "format": "",
+            "main": "January 2023 - June 2023",
+            "placeholder": "Career Duration",
+            "req": false
+          },
+          "role": {
+            "format": "",
+            "main": "SDE Intern",
+            "placeholder": "Career Role",
+            "req": true
+          },
+          "location": {
+            "format": "",
+            "main": "Pune, Maharashtra",
+            "placeholder": "Career Location",
+            "req": false
+          },
+          "features": {
+            "format": [""],
+            "main": ["work-str1. ho hasnt. tell mah."],
+            "placeholder": "Feature Details",
+            "req": false
+          }
+        },
+        {
+          "organization": {
+            "format": "",
+            "main": "eInfoChips org",
+            "placeholder": "Organization",
+            "req": true
+          },
+          "duration": {
+            "format": "",
+            "main": "May 2022 - July 2022",
+            "placeholder": "Career Duration",
+            "req": false
+          },
+          "role": {
+            "format": "",
+            "main": "Summer Intern",
+            "placeholder": "Career Role",
+            "req": true
+          },
+          "location": {
+            "format": "",
+            "main": "Remote",
+            "placeholder": "Career Location",
+            "req": false
+          },
+          "features": {
+            "format": [""],
+            "main": [""],
+            "placeholder": "Feature Details",
+            "req": false
+          }
+        }
+      ]
+    },
+    {
+      "segment_title": "projects",
+      "items": [
+        {
+          "title": {
+            "format": "",
+            "main": "Portfolio Website | ReactJS, Framer-Motion, ts Particles, Three.js, JavaScript, SCSS",
+            "placeholder": "Project Title",
+            "req": true
+          },
+          "duration": {
+            "format": "",
+            "main": "",
+            "placeholder": "Project Duration",
+            "req": false
+          },
+          "details": {
+            "format": "",
+            "main": "",
+            "placeholder": "Project Details",
+            "req": true
+          },
+          "ref": {
+            "format": "",
+            "main": "",
+            "placeholder": "Project Reference",
+            "req": false
+          },
+          "features": {
+            "format": [""],
+            "main": ["Constructed a personalized portfolio website through ReactJS framework. Deployed tsParticles.js library for an interactive background, leading to 40 increase in user interactions. \u2022 Employed animations through Framer-motion library for elevated user view-ability. \u2022 Incorporated custom 3D objects using the Three.js library to demonstrate advanced web development skills.3"],
+            "placeholder": "Feature Details",
+            "req": false
+          }
+        },
+        {
+          "title": {
+            "format": "",
+            "main": "B+ Tree Implementation | C++",
+            "placeholder": "Project Title",
+            "req": true
+          },
+          "duration": {
+            "format": "",
+            "main": "",
+            "placeholder": "Project Duration",
+            "req": false
+          },
+          "details": {
+            "format": "",
+            "main": "",
+            "placeholder": "Project Details",
+            "req": true
+          },
+          "ref": {
+            "format": "",
+            "main": "",
+            "placeholder": "Project Reference",
+            "req": false
+          },
+          "features": {
+            "format": [""],
+            "main": ["Engineered a B+-Tree from scratch, supporting lookup, insert and delete operations. \u2022 Designed it as a template, allowing custom key and value types, comparators and page size at compile time. \u2022 Leverages page-ids and buffer-manager instead of pointers for node resolution, for faster data retrieval and management. Implemented node splitting and merging logic for refined balance in the tree."],
+            "placeholder": "Feature Details",
+            "req": false
+          }
+        }
+      ]
+    },
+    {
+      "segment_title": "certificates",
+      "items": [
+        {
+          "title": {
+            "format": "",
+            "main": "Leetcode Guardian badge achieved",
+            "placeholder": "Project Title",
+            "req": true
+          },
+          "details": {
+            "format": "",
+            "main": "",
+            "placeholder": "Project Details",
+            "req": false
+          },
+          "features": {
+            "format": [""],
+            "main": ["ReactJS, NextJS, Framer Motion, Three.js, Bootstrap, Tailwind, Django, Tensorflow, Numpy, Keras"],
+            "placeholder": "Feature Details",
+            "req": false
+          }
+        },
+        {
+          "title": {
+            "format": "",
+            "main": "Management Head at HackerEarth PDEU Student Chapter",
+            "placeholder": "Project Title",
+            "req": true
+          },
+          "details": {
+            "format": "",
+            "main": "",
+            "placeholder": "Project Details",
+            "req": false
+          },
+          "features": {
+            "format": [""],
+            "main": ["ReactJS, NextJS, Framer Motion, Three.js, Bootstrap, Tailwind, Django, Tensorflow, Numpy, Keras"],
+            "placeholder": "Feature Details",
+            "req": false
+          }
+        }
+      ]
+    },
+    {
+      "segment_title": "skills",
+      "items": [
+        {
+          "title": {
+            "format": "",
+            "main": "technical skills",
+            "placeholder": "Skill Title",
+            "req": false
+          },
+          "features": {
+            "format": [""],
+            "main": ["ReactJS, NextJS, Framer Motion, Three.js, Bootstrap, Tailwind, Django, Tensorflow, Numpy, Keras"],
+            "placeholder": "Feature Details",
+            "req": false
+          }
+        },
+        {
+          "title": {
+            "format": "",
+            "main": "Libraries",
+            "placeholder": "Skill Title",
+            "req": false
+          },
+          "features": {
+            "format": [""],
+            "main": ["ReactJS, NextJS, Framer Motion, Three.js, Bootstrap, Tailwind, Django, Tensorflow, Numpy, Keras"],
+            "placeholder": "Feature Details",
+            "req": false
+          }
+        }
+      ]
+    },
+    {
+      "segment_title": "languages",
+      "items": [
+        {
+          "title": {
+            "format": "",
+            "main": "English",
+            "placeholder": "Languages known",
+            "req": false
+          },
+          "features": {
+            "format": [""],
+            "main": ["I mastered English during my GRE prep. I also scored 8 bands in IELTS"],
+            "placeholder": "Feature Details",
+            "req": false
+          }
+        },
+        {
+          "title": {
+            "format": "",
+            "main": "Gujarati",
+            "placeholder": "Languages known",
+            "req": false
+          },
+          "features": {
+            "format": [""],
+            "main": ["I have good command over Gujarati and consider it my native language."],
+            "placeholder": "Feature Details",
+            "req": false
+          }
+        }
+      ]
+    }
+  ]
+}

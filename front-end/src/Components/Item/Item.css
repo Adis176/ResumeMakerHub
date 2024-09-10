@@ -1,0 +1,41 @@
+.add-item{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-47%, -47%);
+    color: rgb(255, 255, 255);
+    width: 80%;
+    font-weight: 800 !important;
+}
+
+
+input{
+    background-color: transparent !important;
+}
+input:focus{
+    outline: none !important;
+}
+
+
+.item::before{
+    content: "•";
+    position: absolute;
+    color: black !important; 
+    font-weight: 800;
+    left: 0px;
+}
+
+.item:focus{
+    box-shadow: 0px 3px 5px black;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.feature-del{
+    width: 80%;
+    aspect-ratio: 1 !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

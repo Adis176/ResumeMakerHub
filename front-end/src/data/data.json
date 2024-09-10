@@ -1,0 +1,50 @@
+{
+    "data": [
+      {
+        "segment_title": "projects",
+        "items": [
+          {
+            "title": "proj1",
+            "heading": "something something",
+            "description": "AWS | Lambda | Golang ",
+            "features": ["str1", "str2", "str3"]
+          },
+          {
+            "title": "proj2",
+            "heading": "something somwthing",
+            "description": "HTML CSS JS kuch bhi kahi bhi",
+            "features": ["str4", "str5", "str6"]
+          },
+          {
+            "title": "proj3",
+            "heading": "something somwthing",
+            "description": "Kubernetes Helm Datree expired",
+            "features": ["str7", "str8", "str9"]
+          }
+        ]
+      },
+      {
+        "segment_title": "education",
+        "items": [
+          {
+            "title": "ED1",
+            "heading": "",
+            "description": "",
+            "features": ["edu1", "edu2", "edu3"]
+          },
+          {
+            "title": "",
+            "heading": "",
+            "description": "",
+            "features": ["lesson1", "lesson2", "lesson3"]
+          },
+          {
+            "title": "",
+            "heading": "",
+            "description": "",
+            "features": ["study1", "study2", "study3"]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,416 @@
+{
+    "data": [
+      {
+        "segment_title": "objective",
+        "items": [
+          {
+            "attribute1": [
+              {
+                "main": "My main objective in life is to complete this resume maker project for now. Learn more back-end",
+                "placeholder": "Objective",
+                "req": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "segment_title": "education",
+        "items": [
+          {
+            "institute": [
+              {
+                "main": "georgia-Tech",
+                "placeholder": "Institute",
+                "req": true
+              }
+            ],
+            "duration": [
+              {
+                "main": "Aug 2023 - Aug 2025",
+                "placeholder": "Education Duration",
+                "req": false
+              }
+            ],
+            "level": [
+              {
+                "main": "masters in compiter science",
+                "placeholder": "Education level",
+                "req": true
+              }
+            ],
+            "grade": [
+              {
+                "main": "3.86 / 4.00",
+                "placeholder": "Education Grade",
+                "req": false
+              }
+            ],
+            "features": {
+              "main": "There are not many features associated wt Gatech.",
+              "placeholder": "Feature Details",
+              "req": false
+            }
+          },
+          {
+            "institute": [
+              {
+                "main": "Pandit Deendayal Energy Institute - PDEU",
+                "placeholder": "Institute",
+                "req": true
+              }
+            ],
+            "duration": [
+              {
+                "main": "Aug 2019 - May 2023",
+                "placeholder": "Education Duration",
+                "req": false
+              }
+            ],
+            "level": [
+              {
+                "main": "Bachelors of technology",
+                "placeholder": "Education level",
+                "req": true
+              }
+            ],
+            "grade": [
+              {
+                "main": "9.86 / 10.00",
+                "placeholder": "Education Grade",
+                "req": false
+              }
+            ],
+            "features": {
+              "main": "",
+              "placeholder": "Feature Details",
+              "req": false
+            }
+          }
+        ]
+      },
+      {
+        "segment_title": "work-experience",
+        "items": [
+          {
+            "organization": [
+              {
+                "main": "Cling Multi-Solutions",
+                "placeholder": "Organization",
+                "req": true
+              }
+            ],
+            "duration": [
+              {
+                "main": "January 2023 - June 2023",
+                "placeholder": "Career Duration",
+                "req": false
+              }
+            ],
+            "role": [
+              {
+                "main": "SDE Intern",
+                "placeholder": "Career Role",
+                "req": true
+              }
+            ],
+            "location": [
+              {
+                "main": "Pune, Maharashtra",
+                "placeholder": "Career Location",
+                "req": false
+              }
+            ],
+            "features": {
+              "main": "work-str1. ho hasnt. tell mah.",
+              "placeholder": "Feature Details",
+              "req": false
+            }
+          },
+          {
+            "organization": [
+              {
+                "main": "eInfoChips org",
+                "placeholder": "Organization",
+                "req": true
+              }
+            ],
+            "duration": [
+              {
+                "main": "May 2022 - July 2022",
+                "placeholder": "Career Duration",
+                "req": false
+              }
+            ],
+            "role": [
+              {
+                "main": "Summer Intern",
+                "placeholder": "Career Role",
+                "req": true
+              }
+            ],
+            "location": [
+              {
+                "main": "Remote",
+                "placeholder": "Career Location",
+                "req": false
+              }
+            ],
+            "features": {
+              "main": "",
+              "placeholder": "Feature Details",
+              "req": false
+            }
+          }
+        ]
+      },
+      {
+        "segment_title": "projects",
+        "items": [
+          {
+            "title": [
+              {
+                "main": "Portfolio Website | ReactJS, Framer-Motion, ts Particles, Three.js, JavaScript, SCSS",
+                "placeholder": "Project Title",
+                "req": true
+              }
+            ],
+            "duration": [
+              {
+                "main": "",
+                "placeholder": "Project Duration",
+                "req": false
+              }
+            ],
+            "details": {
+              "main": "",
+              "placeholder": "Project Details",
+              "req": true
+            },
+            "ref": {
+              "main": "",
+              "placeholder": "Project Reference",
+              "req": false
+            },
+            "features": {
+              "main": "Constructed a personalized portfolio website through ReactJS framework. Deployed tsParticles.js library for an interactive background, leading to 40% increase in user interactions. \u2022 Employed animations through Framer-motion library for elevated user view-ability.\u2022 Incorporated custom 3D objects using the Three.js library to demonstrate advanced web development skills.3",
+              "placeholder": "Feature Details",
+              "req": false
+            }
+          },
+          {
+            "title": [
+              {
+                "main": "B+ Tree Implementation | C++",
+                "placeholder": "Project Title",
+                "req": true
+              }
+            ],
+            "duration": [
+              {
+                "main": "",
+                "placeholder": "Project Duration",
+                "req": false
+              }
+            ],
+            "details": {
+              "main": "",
+              "placeholder": "Project Details",
+              "req": true
+            },
+            "ref": {
+              "main": "",
+              "placeholder": "Project Reference",
+              "req": false
+            },
+            "features": {
+              "main": "Engineered a B+-Tree from scratch, supporting lookup, insert and delete operations. \u2022 Designed it as a template, allowing custom key and value types, comparators and page size at compile time.\u2022 Leverages page-ids and buffer-manager instead of pointers for node resolution, for 50% faster data retrieval and management. Implemented node splitting and merging logic for refined balance in the tree.",
+              "placeholder": "Feature Details",
+              "req": false
+            }
+          }
+        ]
+      },
+      {
+        "segment_title": "certificates",
+        "items": [
+          {
+            "title": {
+              "main": "Leetcode Guardian badge achieved",
+              "placeholder": "Project Title",
+              "req": true
+            },
+            "details": {
+              "main": "",
+              "placeholder": "Project Details",
+              "req": false
+            },
+            "features": {
+              "main": "ReactJS, NextJS, Framer Motion, Three.js, Bootstrap, Tailwind, Django, Tensorflow, Numpy, Keras",
+              "placeholder": "Feature Details",
+              "req": false
+            }
+          },
+          {
+            "title": {
+              "main": "Management Head at HackerEarth PDEU Student Chapter",
+              "placeholder": "Project Title",
+              "req": true
+            },
+            "details": {
+              "main": "",
+              "placeholder": "Project Details",
+              "req": false
+            },
+            "features": {
+              "main": "ReactJS, NextJS, Framer Motion, Three.js, Bootstrap, Tailwind, Django, Tensorflow, Numpy, Keras",
+              "placeholder": "Feature Details",
+              "req": false
+            }
+          }
+        ]
+      },
+      {
+        "segment_title": "skills",
+        "items": [
+          {
+            "title": {
+              "main": "technical skills",
+              "placeholder": "Skill Title",
+              "req": false
+            },
+            "features": {
+              "main": "ReactJS, NextJS, Framer Motion, Three.js, Bootstrap, Tailwind, Django, Tensorflow, Numpy, Keras",
+              "placeholder": "Feature Details",
+              "req": false
+            }
+          },
+          {
+            "title": {
+              "main": "Libraries",
+              "placeholder": "Skill Title",
+              "req": false
+            },
+            "features": {
+              "main": "ReactJS, NextJS, Framer Motion, Three.js, Bootstrap, Tailwind, Django, Tensorflow, Numpy, Keras",
+              "placeholder": "Feature Details",
+              "req": false
+            }
+          }
+        ]
+      },
+      {
+        "segment_title": "languages",
+        "items": [
+          {
+            "title": {
+              "main": "English",
+              "placeholder": "Languages known",
+              "req": false
+            },
+            "features": [
+              "I mastered English during my GRE prep. I also scored 8 bands in IELTS"
+            ]
+          },
+          {
+            "title": {
+              "main": "Gujarati",
+              "placeholder": "Languages known",
+              "req": false
+            },
+            "features": {
+              "main": "",
+              "placeholder": "Feature Details",
+              "req": false
+            }
+          }
+        ]
+      },
+      {
+        "segment_title": "extracurricular",
+        "items": [
+          {
+            "title": {
+              "main": "EM head at HackerEarth PDEU Student Chapter",
+              "placeholder": "Extracurricular Activities",
+              "req": false
+            },
+            "features": [
+              "I did 8all during my tenure. just did 2 contests."
+            ]
+          },
+          {
+            "title": {
+              "main": "Documentation head at Envirofreaks - didnot turn out well",
+              "placeholder": "Extracurricular Activities",
+              "req": false
+            },
+            "features": {
+              "main": "",
+              "placeholder": "Feature Details",
+              "req": false
+            }
+          }
+        ]
+      },
+      {
+        "segment_title": "BASE",
+        "items": [
+          {
+            "attribute1": {
+              "main": "",
+              "placeholder": "First Attribute Details",
+              "req": false
+            },
+            "attribute2": {
+              "main": "",
+              "placeholder": "Second Attribute Details",
+              "req": false
+            },
+            "attribute3": {
+              "main": "",
+              "placeholder": "Third Attribute Details",
+              "req": false
+            },
+            "attribute4": {
+              "main": "",
+              "placeholder": "Fourth Attribute Details",
+              "req": false
+            },
+            "features": {
+              "main": "",
+              "placeholder": "Feature Details",
+              "req": false
+            }
+          },
+          {
+            "attribute1": {
+              "main": "",
+              "placeholder": "First Attribute Details",
+              "req": false
+            },
+            "attribute2": {
+              "main": "",
+              "placeholder": "Second Attribute Details",
+              "req": false
+            },
+            "attribute3": {
+              "main": "",
+              "placeholder": "Third Attribute Details",
+              "req": false
+            },
+            "attribute4": {
+              "main": "",
+              "placeholder": "Fourth Attribute Details",
+              "req": false
+            },
+            "features": {
+              "main": "",
+              "placeholder": "Feature Details",
+              "req": false
+            }
+          }
+        ]
+      }
+    ]
+  }

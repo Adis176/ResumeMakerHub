@@ -1,0 +1,21 @@
+.section-del {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.section-del::before {
+  content: "";
+  background-color: rgb(255, 255, 255);
+  width: 40%;
+  height: 7%;
+  position: absolute;
+  top: 52.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}   
+
+.gradient-bg{
+  background-image: linear-gradient(to bottom right, #7557C9, #4c25b9, #3F18B1);
+}

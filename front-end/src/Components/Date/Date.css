@@ -1,0 +1,10 @@
+.MuiPickersDay-root.Mui-selected {
+    background-color: #4c25b9 !important; /* Example: Change background color to red */
+    color: #ffffff !important; /* Example: Change text color to white */
+}
+
+.MuiPickersYear-yearButton.Mui-selected{
+    background-color: #4c25b9 !important; /* Example: Change background color to red */
+    color: #ffffff !important; /* Example: Change text color to white */
+    border-radius: 15% !important;
+}

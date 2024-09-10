@@ -1,0 +1,42 @@
+{
+  "name": "user",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mui/icons-material": "^5.16.4",
+    "@mui/material": "^5.16.4",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "@mui/x-data-grid": "^7.14.0",
+    "@mui/x-date-pickers": "^7.11.1",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/ssr": "^0.5.0",
+    "@supabase/supabase-js": "^2.45.1",
+    "@types/draft-js": "^0.11.18",
+    "@types/react-draft-wysiwyg": "^1.13.8",
+    "and": "^0.0.3",
+    "dayjs": "^1.11.12",
+    "draft-convert": "^2.1.13",
+    "draft-js": "^0.11.7",
+    "express": "^4.19.2",
+    "flask": "^0.2.10",
+    "install": "^0.13.0",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-draft-wysiwyg": "^1.15.0",
+    "short-unique-id": "^5.2.0",
+    "styled-components": "^6.1.12"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.5.3"
+  }
+}

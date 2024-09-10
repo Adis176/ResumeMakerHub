@@ -1,0 +1,62 @@
+.view-chng{
+    background-color: rgb(143, 141, 141) !important;
+    opacity: 0.6 !important;
+}
+
+.triangle-left {
+    position: absolute; 
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-15%, -50%); 
+    width: 45%; 
+    height: 45%; 
+    background-color: rgb(255, 255, 255); 
+    clip-path: polygon(0% 0%, 50% 50%, 0% 100%); 
+}
+
+.triangle-right {
+    position: absolute; 
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-85%, -50%); 
+    width: 45%; 
+    height: 45%; 
+    background-color: rgb(255, 255, 255); 
+    clip-path: polygon(50% 50%, 100% 0%, 100% 100%); 
+}
+
+.view-chng .triangle-left {
+    background-color: rgb(255, 255, 255, 0.6); 
+}
+.view-chng .triangle-right {
+    background-color: rgb(255, 255, 255, 0.6); 
+}
+
+
+.add-segment {
+    width: 4%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer !important;
+}
+
+.add-segment::before {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    font-size: 150%; /* This makes the plus sign about 50% of the circle's width */
+    line-height: 1; /* Ensures vertical centering */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}

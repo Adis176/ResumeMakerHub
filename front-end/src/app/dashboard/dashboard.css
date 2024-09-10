@@ -1,0 +1,26 @@
+.MuiDataGrid-toolbarContainer{
+    background-color: #4c25b9;
+    color: black;
+}
+
+.MuiButton-startIcon{
+    color: rgb(235, 235, 235);
+}
+
+.MuiButton-root{
+    color: rgb(245, 245, 245) !important;
+    font-weight: 700 !important;
+}
+
+.MuiDataGrid-columnHeaderTitle{
+    font-weight: 600 !important;
+}
+
+.MuiDataGrid-cell:hover{
+    font-weight: 600 !important;
+}
+
+.MuiDataGrid-cell:focus{
+    font-weight: 600 !important;
+    color: black;
+}

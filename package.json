@@ -1,20 +1,15 @@
 {
   "name": "user",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "concurrently \"npm run dev --prefix front-end\"  \" cd back-end && .\\myenv\\Scripts\\activate && set FLASK_APP=.\\myenv\\app.py && set FLASK_ENV=development && set FLASK_DEBUG=1 && flask run\""
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.5"
-  },
-  "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "concurrently": "^8.2.2"
   }
 }
