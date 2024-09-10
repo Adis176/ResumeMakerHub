@@ -38,3 +38,5 @@ next-env.d.ts
 
 # pandoc
 pandoc-3.3/
+pandoc-3.3/pandoc.exe
+/pandoc.exe
